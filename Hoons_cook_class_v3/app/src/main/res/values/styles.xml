@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+       <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>  @color/accent_material_dark
+        <item name="android:statusBarColor">?@color/colorPrimaryDark
+        <item name="android:navigationBarColor">@android:color/black</item>-->
+        <item name="android:statusBarColor">@color/color_kang</item>
+        <item name="android:navigationBarColor">@color/color_kang</item>
+        <item name="colorAccent">@color/color_kang</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SMS response</string>
+    <string name="bAdd">Add</string>
+    <string name="action_settings">Settings</string>
+    <string name="thint">보낼 메세지를 작성하세요.</string>
+    <color name="bg">#808080</color>
+    <color name="tv1bg">#FFFFFF</color>
+    <color name="tv2bg">#000000</color>
+    <color name="tv1t">#FF4500</color>
+    <color name="et1bg">#FFFFFF</color>
+    <color name="tablerow">#696969</color>
+</resources>

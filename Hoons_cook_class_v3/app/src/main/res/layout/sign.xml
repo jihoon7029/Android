@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/sign_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="66dp"
+                android:ems="10"
+                android:hint="아 이 디"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/sign_Passwordcheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/sign_Password"
+                android:layout_below="@+id/sign_Password"
+                android:layout_marginTop="48dp"
+                android:ems="10"
+                android:hint="비 밀 번 호 확 인"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/sign_Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/sign_ID"
+                android:layout_below="@+id/sign_ID"
+                android:layout_marginTop="48dp"
+                android:ems="10"
+                android:hint="비 밀 번 호"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/sign_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/sign_Passwordcheck"
+                android:layout_below="@+id/sign_Passwordcheck"
+                android:layout_marginTop="48dp"
+                android:ems="10"
+                android:hint="이 메 일"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/cancel_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sign_Email"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="89dp"
+                android:text="   취소   "
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/cancel_button"
+                android:layout_alignBottom="@+id/cancel_button"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/sign_Email"
+                android:layout_marginEnd="50dp"
+                android:layout_marginTop="89dp"
+                android:text="   확인   "
+                android:textSize="30dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
